@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn11"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:text="Play againts Computer"
+        android:background="@color/colorYello"
+        android:textColor="@color/colorOrange"
+        android:padding="6dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn22"
+        android:layout_below="@+id/bn11"
+        android:textStyle="bold"
+        android:text="Play againts Friend "
+        android:background="@color/colorYello"
+        android:textColor="@color/colorOrange"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bn33"
+        android:layout_below="@+id/bn22"
+        android:textStyle="bold"
+        android:text="Skins"
+        android:background="@color/colorYello"
+        android:textColor="@color/colorOrange"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"/>
+
+
+
+</RelativeLayout>
